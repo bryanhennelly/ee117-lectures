@@ -1,8 +1,6 @@
 #!/bin/bash
 
-apt-get update
-apt-get install -y default-jdk
+conda install -y -c conda-forge openjdk
+conda install -y -c conda-forge ijava
 
-pip install jupyter-java
-python -m jupyter_java.install
-
+python -m ijavac.install
