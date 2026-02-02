@@ -1,8 +1,0 @@
-#!/bin/bash
-
-set -e
-
-/srv/conda/envs/notebook/bin/conda install -y -c conda-forge openjdk
-/srv/conda/envs/notebook/bin/conda install -y -c conda-forge ijava
-
-/srv/conda/envs/notebook/bin/ijava install
