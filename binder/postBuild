@@ -3,4 +3,4 @@
 conda install -y -c conda-forge openjdk
 conda install -y -c conda-forge ijava
 
-python -m ijavac.install
+python -m ijava.install
